@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Page</title>
+    <style>
+        h1 {
+            color: grey;
+        }
+        p{ 
+            border: black 1px solid;
+        }
+        .p{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        /* .img{
+            width: 250px;
+        } */
+        .p1,.p2,.p3 {
+            width: 350px;
+        }
+        .button a{
+            text-decoration: none;        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <div class="main">
+        <div class="p">
+            <!-- <img src="images/pizza-1.jpg" class="img"> -->
+            <p class="p1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iste facere voluptatum sapiente atque exercitationem. Sit sed voluptates ex modi maxime. Nam perspiciatis totam at ab labore, rem alias saepe veniam voluptatibus, omnis harum temporibus dolor iste vitae ad blanditiis eos architecto? Cum id libero officiis culpa eligendi temporibus exercitationem?
+            </p>
+            <div class="p">
+                <!-- <img src="images/pizza-1.jpg" class="img"> -->
+                <p class="p2"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iste facere voluptatum sapiente atque exercitationem. Sit sed voluptates ex modi maxime. Nam perspiciatis totam at ab labore, rem alias saepe veniam voluptatibus, omnis harum temporibus dolor iste vitae ad blanditiis eos architecto? Cum id libero officiis culpa eligendi temporibus exercitationem?
+                </p>
+            </div>
+            <div class="p">
+                <!-- <img src="images/pizza-1.jpg" class="img"> -->
+                <p class="p3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iste facere voluptatum sapiente atque exercitationem. Sit sed voluptates ex modi maxime. Nam perspiciatis totam at ab labore, rem alias saepe veniam voluptatibus, omnis harum temporibus dolor iste vitae ad blanditiis eos architecto? Cum id libero officiis culpa eligendi temporibus exercitationem?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="button">
+        <a href="#">add</a>
+    </div>
+    <script>
+        var button = document.querySelector('.button');
+        button.addEventListener('click', run);
+        function run() {
+            alert('sdsd');
+        }
+    </script>
+</body>
+</html>
